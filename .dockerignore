@@ -1,0 +1,11 @@
+.git/
+__pycache__/
+*.pyc
+venv/
+
+Nacional_Sistema_1.7.0_update.exe
+Nacional_Sistema_1.7.0_update/
+Actualizacion.pdf
+
+client/
+server/

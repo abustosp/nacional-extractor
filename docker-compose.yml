@@ -1,0 +1,8 @@
+services:
+  extractor:
+    build: .
+    image: extractor:latest
+    working_dir: /data
+    volumes:
+      - ./:/data
+    user: "${UID:-1000}:${GID:-1000}"
